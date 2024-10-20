@@ -22,3 +22,4 @@ driver.switch_to.alert
 print(alert.text)
 alert.dismiss()
 time.sleep(3)
+print("Alerts")
