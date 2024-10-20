@@ -40,3 +40,5 @@ if count == len(fruits)-1:
     print("Values are sorted")
 driver.get_screenshot_as_file(r"C:\Users\Chirag M. Sidhdhapur\Desktop\Selenium Python\chromedriver-win64\tablesorted.png")
 assert sortedList == list
+
+print("print statement from user X as an acknowledgement")
