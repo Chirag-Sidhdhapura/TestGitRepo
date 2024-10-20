@@ -49,3 +49,7 @@ for i in range(1, sheet.max_row+1):
             print(sheet.cell(row=i, column=j).value)
             dict[sheet.cell(row=1, column=j).value] = sheet.cell(row=i, column=j).value
 print(dict)
+print("This is the changes intrtroduced by User Y")
+print("This will not be visible for User X right now")
+print("after pulling updates User X can see this")
+print("once you can see this changes let me know by adding print statement @userX")
